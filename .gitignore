@@ -1,0 +1,19 @@
+# 依赖
+node_modules/
+.playwright/
+
+# 产物
+输出/
+*.png
+*.pdf
+*.docx
+!assets/**/*.png
+
+# 系统
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 编辑器
+.vscode/
+.idea/
