@@ -32,10 +32,10 @@
 克隆到 Claude Code 的个人 skill 目录即可：
 
 ```bash
-git clone git@github.com:eachkinji/one-pager.git ~/.claude/skills/one-pager
+git clone https://github.com/eachkinji/one-pager.git ~/.claude/skills/one-pager
 ```
 
-（HTTPS 也行：`https://github.com/eachkinji/one-pager.git`）
+（有配好 SSH key 的话也可以用 `git@github.com:eachkinji/one-pager.git`。）
 
 ## 环境依赖
 
@@ -113,4 +113,4 @@ one-pager/
 
 ---
 
-个人私有仓库。Word 版是**另写一套代码**（`docx` 库搭表格）而不是自动转换，两套代码靠流程保证内容一致。
+Word 版是**另写一套代码**（`docx` 库搭表格）而不是自动转换，两套代码靠流程保证内容一致。
